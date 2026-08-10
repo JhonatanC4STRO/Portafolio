@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  background: #0a0a0a;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+::selection {
+  color: #0a0a0a;
+  background: #fb923c;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}

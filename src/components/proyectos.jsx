@@ -51,6 +51,30 @@ const proyectos = [
     aporte:
       "Desarrollo frontend de la plataforma, construcción de la interfaz adaptable y organización visual del contenido educativo.",
   },
+  {
+    numero: "03",
+    etiqueta: "Aplicación Android offline-first",
+    titulo: "NOTIUM",
+    descripcion:
+      "Aplicación de notas que funciona sin conexión y sincroniza de forma segura los cambios, adjuntos e historial entre dispositivos cuando vuelve la red.",
+    caracteristicas: ["Offline-first", "Sincronización", "Cifrado"],
+    imagen: "/notium.png",
+    posicionImagen: "center center",
+    imagenAlt: "Presentación de Notium, aplicación Android de notas offline-first",
+    enlace: "https://notium.shona.lat/",
+    fondo: "#f2eee5",
+    circulo: "#00aee8",
+    texto: "#071a38",
+    objetivo:
+      "Mantener las notas disponibles incluso con una conexión inestable, sin sacrificar seguridad ni continuidad entre dispositivos.",
+    enfoque: [
+      "Persistencia local cifrada para crear, editar y consultar notas sin internet.",
+      "Sincronización automática con resolución determinista y trazabilidad de conflictos.",
+      "Arquitectura completa con cliente Flutter, API REST y despliegue en contenedores.",
+    ],
+    aporte:
+      "Diseño e implementación integral del cliente Android y el servidor: arquitectura offline-first, base de datos cifrada, autenticación, sincronización, adjuntos, despliegue y pruebas automatizadas.",
+  },
 ];
 
 function ProyectoPantalla({ proyecto, indice, onAbrir }) {

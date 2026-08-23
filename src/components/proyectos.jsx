@@ -75,6 +75,30 @@ const proyectos = [
     aporte:
       "Diseño e implementación integral del cliente Android y el servidor: arquitectura offline-first, base de datos cifrada, autenticación, sincronización, adjuntos, despliegue y pruebas automatizadas.",
   },
+  {
+    numero: "04",
+    etiqueta: "Procesamiento documental con OCR",
+    titulo: "IDENTIDAD CLARA",
+    descripcion:
+      "Sistema OCR que transforma documentos PDF en datos estructurados, revisables y exportables, con ejecución local mediante CPU o GPU NVIDIA.",
+    caracteristicas: ["PaddleOCR", "Revisión", "Exportación"],
+    imagen: "/identidad-clara.png",
+    posicionImagen: "center top",
+    imagenAlt: "Portada de Identidad Clara, sistema local de procesamiento OCR",
+    enlace: "https://ocr.shona.lat/",
+    fondo: "#e8f4fb",
+    circulo: "#b9e5f5",
+    texto: "#10192b",
+    objetivo:
+      "Convertir documentos de identidad en información estructurada que pueda revisarse, corregirse y exportarse sin depender de servicios OCR externos.",
+    enfoque: [
+      "Preparación de documentos con PyMuPDF y OpenCV antes del reconocimiento.",
+      "Procesamiento local con PaddleOCR y extracción de campos estructurados.",
+      "Revisión de resultados, persistencia y exportación a CSV o XLSX.",
+    ],
+    aporte:
+      "Diseño e implementación integral del sistema: interfaz en Next.js, API con FastAPI, pipeline OCR, persistencia en SQLite, ejecución en contenedores para CPU o GPU NVIDIA y despliegue de la documentación pública.",
+  },
 ];
 
 function ProyectoPantalla({ proyecto, indice, onAbrir }) {

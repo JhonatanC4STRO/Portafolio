@@ -53,6 +53,30 @@ const proyectos = [
   },
   {
     numero: "03",
+    etiqueta: "Analítica académica",
+    titulo: "JUICIOS",
+    descripcion:
+      "Plataforma web que transforma reportes Excel de juicios evaluativos en consultas, perfiles de aprendices y analítica para apoyar el seguimiento formativo.",
+    caracteristicas: ["Importación Excel", "Analítica", "Seguimiento"],
+    imagen: "/juicios-evaluativos.png",
+    posicionImagen: "center center",
+    imagenAlt: "Dashboard del proyecto Juicios Evaluativos",
+    enlace: "https://juicios.shona.lat/",
+    fondo: "#dbeafe",
+    circulo: "#ffffff",
+    texto: "#071a38",
+    objetivo:
+      "Reemplazar la consulta manual de reportes Excel por una experiencia centralizada, filtrable y visual para entender el avance académico.",
+    enfoque: [
+      "Importación y procesamiento de reportes con validaciones antes de persistir los datos.",
+      "Consultas organizadas por aprendices, competencias y resultados de aprendizaje.",
+      "Dashboards y gráficos que convierten los juicios en indicadores accionables.",
+    ],
+    aporte:
+      "Diseño e implementación full-stack: interfaz con React, TypeScript y ECharts, API con Spring Boot y JPA, persistencia en PostgreSQL y despliegue mediante Docker.",
+  },
+  {
+    numero: "04",
     etiqueta: "Aplicación Android offline-first",
     titulo: "NOTIUM",
     descripcion:
@@ -76,7 +100,7 @@ const proyectos = [
       "Diseño e implementación integral del cliente Android y el servidor: arquitectura offline-first, base de datos cifrada, autenticación, sincronización, adjuntos, despliegue y pruebas automatizadas.",
   },
   {
-    numero: "04",
+    numero: "05",
     etiqueta: "Procesamiento documental con OCR",
     titulo: "IDENTIDAD CLARA",
     descripcion:
